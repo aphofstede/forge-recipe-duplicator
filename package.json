@@ -1,0 +1,19 @@
+{
+  "name": "forge-recipe-duplicator",
+  "version": "1.0.0",
+  "description": "Extract and insert recipes from Laravel Forge",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0"
+  }
+}
