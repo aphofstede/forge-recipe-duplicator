@@ -3,11 +3,15 @@ Takes two Laravel Forge API keys and copies all recipes from one account to the 
 
 # Installation
 `npm i`
+
 `cp .env.example .env`
 
 # Configuration
-Have both users go to https://forge.laravel.com/user-profile/api and generate an API token.
+Have both users go to https://forge.laravel.com/user-profile/api and generate a new API token.
+
 Enter the API tokens for the target and the source account in the .env file.
 
 # Run
 `npm start`
+
+Consider removing the API tokens once the operation was succesful.
