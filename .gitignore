@@ -1,11 +1,8 @@
-### Example user template template
-### Example user template
-
 # IntelliJ project files
 .idea
 *.iml
-out
 gen
+
 ### Node template
 # Logs
 logs
@@ -123,4 +120,3 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-
